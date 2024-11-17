@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/idOfNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/nameOfNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Чай с моими слезами"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

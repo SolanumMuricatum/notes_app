@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="new_note">Напишите новую заметку</string>
+    <string name="delete_note">Введите номер удаляемой заметки</string>
+</resources>
